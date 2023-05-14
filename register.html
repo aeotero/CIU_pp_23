@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <script async src="script.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="nav-item">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="https://www.virbela.com/">
+                                <img src="Icons/virbela-icon.png" alt="Home Virbela" width="100px">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ponentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Patrocinadores</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="register.html">Registro</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <button type="button" class="btn btn-light-empasis" id="btn-estilo">
+                        <img src="Icons/lightbulb-off.svg" alt="Modo-oscuro">
+                    </button>
+                    <a href="https://www.linkedin.com/company/virbela">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/linkedin.svg" alt="Linkedin">
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/VirBELA">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/facebook.svg" alt="Facebook">
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/VirbelaHQ">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/twitter.svg" alt="Twitter">
+                        </button>
+                    </a>
+                    <a href="https://www.instagram.com/virbelahq">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/instagram.svg" alt="Instagram">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Registro al Evento</h1>
+        <form action="mailto:gabriel.molina@unahur.edu.ar" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="nombre-apellido">Nombre y apellido</label>
+                <input type="text" class="form-control" id="nombre-apellido" placeholder="Introduce tu nombre y apellido">
+            </div>
+            <div class="form-group">
+                <label for="nombre-apellido">Comentarios</label>
+                <input type="text" class="form-control" id="comment" placeholder="Introduce el comentario">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Introduce tu email">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-danger">Borrar</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="d-flex mb-3">
+                <div class="p-2">
+                    <h2>Localización</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1736.375617737114!2d-4.459447861133225!3d40.184958041985794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be095154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e1!3m2!1ses-419!2sar!4v1683998500496!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="p-2">
+                    <h2>Contacto</h2>
+                    <p>Dirección: Calle Falsa, 1234, Aldea en Cabo, España</p>
+                    <p>Teléfono: +54 9 1234 5678 </p>
+                    <p>Email: info@evento.com</p>
+                </div>
+                <div class="ms-auto p-2">
+                    <a href="index.html">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/house.svg" alt="Home">
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/company/virbela">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/linkedin.svg" alt="Linkedin">
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/VirBELA">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/facebook.svg" alt="Facebook">
+                        </button>
+                    </a><a href="https://twitter.com/VirbelaHQ">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/twitter.svg" alt="Twitter">
+                        </button>
+                    </a><a href="https://www.instagram.com/virbelahq">
+                        <button type="button" class="btn btn-light-empasis">
+                            <img src="Icons/instagram.svg" alt="Instagram">
+                        </button>
+                    </a>
+                </div>
+                </div>
+        </div>
+        <p class="text-center">© 2023 Evento. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
+        
